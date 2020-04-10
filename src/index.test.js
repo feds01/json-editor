@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { JSONEditor } from ".";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe("JSONEditor", () => {
+  it("is truthy", () => {
+    expect(JSONEditor).toBeTruthy();
+  });
+});

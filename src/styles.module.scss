@@ -1,0 +1,45 @@
+/* add css module styles here (optional) */
+
+.jsonEditor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 1em;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+
+.editor {
+  outline: 1px solid #ccc; 
+  margin: 0.5em;
+  display: block;
+}
+
+.editorLine {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  align-items: center;
+
+  div {
+    font-size: 15px;
+    padding-left: 2px;
+    line-height: 17px;
+  }
+
+  pre {
+    font-size: 15px;
+    padding-left: 2px;
+    margin-left: 5px;
+    border: 1px solid #ccc; 
+    border-bottom: none;
+    border-top: none;
+    display: block; 
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 600px;
+    line-height: 17px;
+  }
+}
