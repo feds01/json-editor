@@ -15,12 +15,13 @@ npm install --save json-editor
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'json-editor'
-import 'json-editor/dist/index.css'
+import {JSONEditor} from 'json-editor'
 
-class Example extends Component {
+class App extends Component {
   render() {
-    return <MyComponent />
+
+
+    return <JSONEditor value={{"key": "value"}} />
   }
 }
 ```
